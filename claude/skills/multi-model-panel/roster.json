@@ -1,0 +1,26 @@
+{
+  "verified": "2026-10-20",
+  "codex": {
+    "family": "openai",
+    "model": "read from ~/.codex/config.toml [model] (expected gpt-6.1-sol, needs codex-cli >= 0.159.1); never passed as -m",
+    "effort": "high",
+    "note": "effort is passed per-run as -c model_reasoning_effort=<effort> so the panel does not change the global config.toml default"
+  },
+  "gemini": {
+    "family": "google",
+    "model": "gemini-4-argon-high",
+    "rule": "run `agy models`; highest Gemini version wins; pro beats flash on a tie; take the -high variant"
+  },
+  "grok": {
+    "family": "xai",
+    "model": "grok-4.7",
+    "effort": "medium",
+    "rule": "run `~/.grok/bin/grok models`; highest grok version wins (ignore -build/-fast variants); effort always passed explicitly as --reasoning-effort <roster effort> because ~/.grok/config.toml has its own default"
+  },
+  "claude": {
+    "family": "anthropic",
+    "agent_if_convener_is_fable": "panel-claude-opus",
+    "agent_otherwise": "panel-claude-fable",
+    "note": "model and effort live in ~/.claude/agents/<agent>.md frontmatter"
+  }
+}

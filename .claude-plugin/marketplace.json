@@ -1,0 +1,14 @@
+{
+  "name": "multi-model-panel",
+  "owner": {
+    "name": "Quinn Breedlove"
+  },
+  "description": "The multi-model panel workflow for Claude Code: panel-view, a live pane for /multi-model-panel runs",
+  "plugins": [
+    {
+      "name": "panel-view",
+      "source": "./claude/mods/panel-view",
+      "description": "Live pane for /multi-model-panel: seats, verdicts, agreement, findings, rulings and rounds"
+    }
+  ]
+}

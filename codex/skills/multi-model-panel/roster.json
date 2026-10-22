@@ -1,0 +1,11 @@
+{
+  "verified": "2026-09-24",
+  "codex": {
+    "family": "openai",
+    "opposite_model": {"gpt-6-sol": "gpt-6-astra", "gpt-6-astra": "gpt-6-sol"},
+    "effort": "high"
+  },
+  "gemini": {"family": "google", "model": "gemini-3.8-flash-high"},
+  "grok": {"family": "xai", "model": "grok-4.7", "effort": "medium"},
+  "claude": {"family": "anthropic", "model": "claude-fable-5-1", "effort": "medium"}
+}

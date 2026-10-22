@@ -1,0 +1,9 @@
+{
+  "name": "panel-view",
+  "version": "0.4.1",
+  "description": "Live pane for /multi-model-panel: seats running, verdicts, agreement, findings, the convener's rulings, and rounds across loops",
+  "author": {
+    "name": "Quinn Breedlove"
+  },
+  "types": "./types/index.d.ts"
+}

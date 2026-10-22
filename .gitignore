@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+.DS_Store
+# Type definitions the Claude Code host generates for a mod at load time.
+**/.claude-plugin/types/
+# Panel run directories, if someone runs a panel from inside the repo.
+panel-runs/
+*.bak-*

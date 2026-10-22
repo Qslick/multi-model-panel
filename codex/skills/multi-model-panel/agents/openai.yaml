@@ -1,0 +1,4 @@
+interface:
+  display_name: "Multi-Model Panel"
+  short_description: "Four-provider review with an opposite-model Codex seat"
+  default_prompt: "Use $multi-model-panel to independently review this work and synthesize the findings."

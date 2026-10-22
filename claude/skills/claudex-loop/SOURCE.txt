@@ -1,0 +1,4 @@
+Source: https://github.com/chaseai-yt/claudex-loop
+Commit: f8c111d
+Installed: 2026-08-27 (user-level, ~/.claude/skills/)
+License: MIT (Chase AI)
