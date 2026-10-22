@@ -9,7 +9,7 @@ The point is blind-spot coverage. Models from one family tend to miss the same t
 This repo packages the whole workflow: the Claude Code skill, its agents and command, a live pane that draws each run, a native Codex version of the skill, and the companion Codex review skills.
 
 ```mermaid
-flowchart LR
+flowchart TD
     A["/panel item"] --> B["Build one packet<br/>packet.md + meta.json"]
     B --> C1["Codex<br/>codex exec, read-only sandbox"]
     B --> C2["Gemini<br/>agy, read grant only"]
