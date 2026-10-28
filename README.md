@@ -186,6 +186,14 @@ Every run keeps its files in its own directory. [`docs/run-dir-contract.md`](doc
 - **Rulings** draws `ruling.json`: each point's bucket, severity and the convener's ruling, with the reasons.
 - **Rounds** compares round 1, round 2 and every loop of the same decision side by side.
 
+![The Live tab mid-run: one seat has answered Reject while the other three are still reviewing](docs/screenshots/panel-view-live-reviewing.png)
+
+*Live, mid-run. Codex has answered; Gemini, Grok and Claude are still reviewing, shown as dashed bars on the activity timeline.*
+
+![The Live tab with three seats agreeing on Approve with changes and a fourth still reviewing](docs/screenshots/panel-view-live-agreement.png)
+
+*Live, later in a run. Three seats agree, the agreement matrix and risk bars fill in, and Claude is still reading files.*
+
 When a seat fails because its CLI needs signing in again, the pane offers a sign-in button, and then a Retry button that asks the convener to rerun only that seat.
 
 The pane finds runs by watching for the skill's dispatch command and reading the run directory. If you rename files or change the dispatch command in SKILL.md, update the mod too. The [run-dir contract](docs/run-dir-contract.md) lists what it depends on.
